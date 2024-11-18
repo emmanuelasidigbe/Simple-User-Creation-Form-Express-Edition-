@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Home</title>
+  </head>
+  <body
+    class="bg-neutral-800 flex items-center justify-center flex-col h-screen w-screen font-press"
+  >
+    <div class="text-5xl text-neutral-500 mb-12">Hello World!😉😎</div>
+    <form action="/create-user" method="post">
+      <input
+        type="text"
+        name="username"
+        placeholder="enter your name"
+        class="text-xs px-2 text-neutral-600 bg-neutral-800 outline-none placeholder:text-neutral-600"
+      />
+
+      <button
+        type="submit"
+        class="text-neutral-600 px-2 hover:text-neutral-400 duration-500"
+      >
+        send
+      </button>
+    </form>
+  </body>
+</html>
